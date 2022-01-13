@@ -313,7 +313,7 @@ export default class EmojiSelector extends Component {
               activeCategory={category}
               onPress={this.handleTabSelect}
               theme={theme}
-              width={this.state.width}
+              width={this.state.width+(this.props.tabbarWidth || 0)}
             />
           )}
         </View>
